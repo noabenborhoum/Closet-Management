@@ -15,13 +15,13 @@ Python: Flask & Flask-RESTful for building the API. MongoDB: NoSQL database for 
 
 To run this API locally, follow these steps:
 
-Make sure you have Docker and Docker Compose installed on your machine.
+1. Make sure you have Docker and Docker Compose installed on your machine.
 Hold a valid OpenWeatherMap API key (Sign Up for OpenWeatherMap -> Generate an API Key -> Add the API Key to line 20 in the code).
 
-Clone the repository: git clone https://github.com/noabenborhoum/Closet-Management.git
+2. Clone the repository: git clone https://github.com/noabenborhoum/Closet-Management.git
 Run the application with Docker Compose:
 
-cd Closet-Management docker-compose up The API will be available at http://localhost:5000.
+3. cd Closet-Management docker-compose up The API will be available at http://localhost:5000.
 
 
 
