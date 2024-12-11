@@ -3,12 +3,14 @@
 The Closet API is a RESTful web service for managing clothing items, outfits, and their ratings. It integrates with OpenWeatherMap to fetch weather data and filter outfits based on location-specific conditions.
 
 
+
 **Features:**
 
 Manage clothing items with attributes like type, color, and waterproof status. Create, retrieve, and delete outfits made up of clothing items. Rate outfits and view the top-rated ones. Automatically filter outfits based on weather conditions using OpenWeatherMap. Dockerized application for easy deployment.
 
 *Technologies Used*:
 Python: Flask & Flask-RESTful for building the API. MongoDB: NoSQL database for storing clothes, outfits, and ratings. Docker Compose: For containerized deployment. OpenWeatherMap API: For weather data integration.
+
 
 
 **Getting Started**
@@ -22,6 +24,7 @@ Hold a valid OpenWeatherMap API key (Sign Up for OpenWeatherMap -> Generate an A
 Run the application with Docker Compose:
 
 3. cd Closet-Management docker-compose up The API will be available at http://localhost:5000.
+
 
 
 
